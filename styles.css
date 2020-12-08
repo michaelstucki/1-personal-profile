@@ -25,7 +25,7 @@ a:hover {
 
 /* Section Styles */
 
-.main-nav {
+nav {
   width: 100%;
   background: black;
   min-height: 30px;
@@ -74,17 +74,13 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 20%;
   border: 3px solid white;
   transition: all .5s;
 }
 
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
-}
-
-#grecian-urn:hover {
-  transform: scale(1.2);
 }
 
 .tag {
@@ -101,7 +97,7 @@ header .profile-image:hover {
   color: white;
 }
 
-.card {
+article {
   margin: 30px;
   padding: 20px 40px 40px;
   max-width: 500px;
@@ -112,7 +108,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 
-.card:hover {
+article:hover {
   border-color: #ff99ff;
 }
 
@@ -188,9 +184,17 @@ a.social:hover {
   clear: both;
 }
 
-#grecian-urn {
+.interests img {
   width: 20%;
+  border-radius: 20%;
+  border: 1px solid black;
+  transition: all .5s;
 }
+
+.interests img:hover {
+  transform: scale(1.2) rotate(5deg);
+}
+
 
 /* Styles for larger screens */
 
